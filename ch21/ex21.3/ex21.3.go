@@ -20,6 +20,7 @@ func getOperator(op string) func(int, int) int {
 	}
 }
 
+// main
 func main() {
 	var operator func(int, int) int
 	operator = getOperator("*")
